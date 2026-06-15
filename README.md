@@ -10,9 +10,13 @@ pip install quantumclouds
 # Quick Start
 Here is how to get up and running with QuantumClouds:
 
+
 from quantumclouds.engine import AtomicOrbital
+
 carbon = AtomicOrbital("C", l=3, m=1, grid_size=100)
+
 carbon.compute()
+
 carbon.plot3d(cmap='magma')
 
 # Features
